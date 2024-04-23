@@ -1,0 +1,77 @@
+body {
+    min-height: 100vh;
+    background: #090909;
+}
+
+section {
+
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 20px;
+}
+
+.social-network {
+    display: inline-flex;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.container-nav {
+
+}
+
+.header {
+    background-color: #080808;
+}
+
+.social-vk {
+    margin-right: 16px;
+    margin-left: auto;
+}
+
+.social-tg {
+    margin-right: 16px;
+}
+
+.first-screen {
+    height: 600px;
+    background: url('../images/sneakers-2.jpg') center/contain no-repeat #000000;
+}
+
+.first-screen-content {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.button {
+    background: linear-gradient(#175cd8, #ad1fe1);
+    padding: 10px 40px;
+    display: block;
+    color: #c4c4c4;
+    border: none;
+    box-shadow: 0 0 50px 5px #ad1fe1;
+}
+
+.search {
+    background:#080808;
+    color: #fff;
+    border: 1px solid #999;
+}
+
+.mirror {
+    transform: scale(1, -1);
+    opacity: 0.2;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
