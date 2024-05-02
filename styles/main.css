@@ -4,10 +4,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-section {
-
-}
-
 .container {
     max-width: 1280px;
     margin: 0 auto;
@@ -22,10 +18,6 @@ section {
 .navigation {
     display: flex;
     align-items: center;
-}
-
-.container-nav {
-
 }
 
 .header {
@@ -92,7 +84,7 @@ section {
         color: #ad1fe1;
     }
 
-    p {
+    .colored-block-text {
         color: #999;
         font-size: 18px;
         line-height: 1.4em;
@@ -107,52 +99,6 @@ section {
         
     }
 
-    .specifications-depreciation {
-        color: #fff;
-        text-align: center;
-        margin-top: 50px;
-        padding-bottom: 20px;
-    }
-
-    .specifications {
-        width: 50%;
-    }
-
-    .specifications-protector {
-        width: 50%;
-        margin-top: 50px;
-        margin-left: 50%;
-    }
-
-    .protector {
-        text-align: center;
-        color: #fff;
-        padding-bottom: 20px;
-    }
-
-    .specifications-stabilizing-elements {
-        color: #fff;
-        text-align: center;
-        width: 50%;
-        margin-top: 50px;
-    }
-
-    .stabilizing-elements {
-        color: #fff;
-        text-align: center;
-        padding-bottom: 20px;
-    }
-    .Construction {
-        width: 50%;
-        margin-top: 50px;
-        margin-left: 50%;
-    }
-
-    .Construction-material {
-        color: #fff;
-        text-align: center;
-        padding-bottom: 20px;
-    }
 
     .characteristics-list {
         position: relative;
@@ -161,4 +107,38 @@ section {
     .characteristics-text{
         color: #fff;
         text-align: center;
+    }
+
+    .description-text {
+        color: #fff;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .description-paragraph {
+        /* color: #fff; */
+        color: #999;
+        font-size: 18px;
+        line-height: 1.4em;
+        text-indent: 25px;
+    }
+
+    .description {
+        background-color: #000000;
+    }
+
+    .even {
+        margin-left: 50%;
+    }
+
+    .colored-block {
+        width: 50%;
+        margin-top: 50px;
+    }
+
+    .colored-block-title {
+        color: #fff;
+        text-align: center;
+        margin-top: 50px;
+        padding-bottom: 20px;
     }
